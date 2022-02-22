@@ -22,7 +22,7 @@ document.write(`<h2>A Soma dos Numeros digitados é ${somar} </h2>`)
 document.write('<br>')
 console.log(somar)
 
-media = somar/numArray.length
+let media = somar/numArray.length
 document.write(`<h2>A Media dos numeros digitados é ${media} </h2>`)
 document.write('<br>')
 console.log(media)
@@ -30,6 +30,11 @@ console.log(media)
 let raizCubica = Math.cbrt(numArray[0])
 document.write(` <br>`)
 document.write(` <h2> A raiz cúbica de ${numArray[0]} é: ${raizCubica.toFixed(2)} <h2>`)
+document.write(` <br>`)
+
+let raizQuadrada = Math.sqrt(numArray[0])
+document.write(` <br>`)
+document.write(` <h2> A raiz cúbica de ${numArray[0]} é: ${raizQuadrada.toFixed(2)} <h2>`)
 document.write(` <br>`)
 
 for (var j = 0; j < numArray.length; j++) {
